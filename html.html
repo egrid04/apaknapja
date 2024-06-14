@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apák napja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Apák napja játék</h1>
+    <div id="question-container">
+        <div id="question1" class="question">
+            <p>Első Kérdés: Mit nézett Domi, Oli együtt a moziban?</p>
+            <button onclick="checkAnswer(1, 'A')">A. Halálos iramban 9</button>
+            <button onclick="checkAnswer(1, 'B')">B. One Piece</button>
+            <button onclick="checkAnswer(1, 'C')">C. Pókember: Nincs hazaút</button>
+        </div>
+        <div id="question2" class="question">
+            <p>Második Kérdés: Mennyi idősek ketten együtt?</p>
+            <img src="api.jpg" width="250px">
+            <img src="seri.jpg" height="250px">
+            <br>
+            <button onclick="checkAnswer(2, 'A')">A. 13</button>
+            <button onclick="checkAnswer(2, 'B')">B. 8</button>
+            <button onclick="checkAnswer(2, 'C')">C. 15</button>
+        </div>
+        <div id="question3" class="question">
+            <p>Harmadik Kérdés: Mikor voltunk ezeken a képeken Lillafüreden?</p>
+            <img src="harman.jpg" height="300px">
+            <img src="ketten.jpg" height="300px">
+            <br>
+            <button onclick="checkAnswer(3, 'A')">A. 2020.Jan.18</button>
+            <button onclick="checkAnswer(3, 'B')">B. 2018.Aug.28</button>
+            <button onclick="checkAnswer(3, 'C')">C. 2019.Máj.19</button>
+        </div>
+        <div id="question4" class="question">
+            <p>Boldog Apák napját</p>
+            <q>Domi,Oli,Anya</q>
+            <br>
+            <img src="kep1.jpg" height="300px">
+            <img src="kep2.jpg" height="300px">
+            <img src="kep3.jpg" height="300px">
+            <img src="kep4.jpg" height="300px">
+            <button onclick="checkAnswer(4, 'B')">Meglepi</button>
+            
+        </div>
+    </div>
+    <div id="prize" class="prize">
+        <h2>Teljesítetted ezt a csodás kérdőívet, itt egy kis ajándék!</h2>
+        <img src="kep.jpg" alt="Prize Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
