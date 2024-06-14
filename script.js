@@ -3,7 +3,7 @@ const totalQuestions = 4;
 const correctAnswers = {
     1: 'B',
     2: 'A',
-    3: 'B',
+    3: 'C',
     4: 'B'
 };
 
